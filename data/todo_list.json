@@ -1,0 +1,12 @@
+[
+    {
+        "task": "내일(7/14) 부산 출장",
+        "assignee": "김민수",
+        "completed": false
+    },
+    {
+        "task": "이번주 금요일(7/17) 당직 근무",
+        "assignee": "권나라",
+        "completed": false
+    }
+]
