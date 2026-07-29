@@ -6,11 +6,6 @@ def search_weather_tools(mcp):
     os.makedirs(DATA_DIR, exist_ok=True)
 
     @mcp.tool()
-    async def search_weather(name: str) -> str:
-        path = os.path.join(DATA_DIR, f"{name}.md")
-        return open(path, "r", encoding="utf-8").read() if os.path.exists(path) else "정보 없음."
-
-    @mcp.tool()
     async def get_weather(location: str) -> str:
         """특정 도시나 지역의 현재 날씨 정보를 조회합니다.
 
