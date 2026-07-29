@@ -7,7 +7,7 @@ from tools.todo import register_todo_tools
 from tools.weather import search_weather_tools
 from tools.alarm import search_alarm_tools
 
-mcp = FastMCP("google-jam-server", allowed_hosts=["*"])
+mcp = FastMCP("google-jam-server")
 
 # 도구 등록
 # register_employee_tools(mcp)
