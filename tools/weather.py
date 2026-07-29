@@ -1,4 +1,5 @@
 import os
+import httpx
 
 def search_weather_tools(mcp):
     DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "employees")
